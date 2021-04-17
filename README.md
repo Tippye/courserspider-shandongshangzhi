@@ -3,6 +3,14 @@
 #### 介绍
 使用selenium对山东商业职业技术学院官网进行爬取获得课表，使用Django进行API开发，iOS用户可使用快捷指令请求该API实现让Siri查询当日课程
 
+> 项目已部署到[http://coursespider.tippy.website](http://coursespider.tippy.website)
+> 
+> 使用时请部署到自己的服务器或电脑上
+> 
+> 受限于服务器带宽和校园网登录等环境，请求时长可能较长，请耐心等待
+> 
+> 测试时请求时长约为28秒左右，放在自己电脑上请求约为6秒左右
+
 #### 安装教程
 
 1.  先在自己电脑或服务器配置python3环境
@@ -89,11 +97,3 @@ GET/
     "state": 0
 }
 ```
-
-> 项目已部署到[http://coursespider.tippy.website](http://coursespider.tippy.website)
-> 
-> 使用时请部署到自己的服务器或电脑上
-> 
-> 受限于服务器带宽和校园网登录等环境，请求时长可能较长，请耐心等待
-> 
-> 测试时请求时长约为28秒左右，放在自己电脑上请求约为6秒左右
